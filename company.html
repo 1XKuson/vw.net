@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Global Server Solutions: Dedicated, VPS & Cloud Hosting | Visual Web Co., Ltd.</title>
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="Visual Web Co., Ltd. provides top-quality dedicated servers, VPS, cloud servers, and co-location in over 120 countries worldwide, with a strong focus on Asia, the Middle East, and Oceania. Expand your business today.">
+    <meta name="keywords"
+        content="dedicated servers, VPS, cloud servers, co-location, data centers, Asia, Middle East, Oceania, Visual Web, Servers in Asia">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Panzoom for Map Interactivity -->
+    <script src="https://unpkg.com/@panzoom/panzoom@4.5.1/dist/panzoom.min.js"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#E63946', // Crimson Edge
+                        primaryDark: '#B21A25',
+                        background: '#0a0a0b', // Deep Ultra Dark
+                        surface: '#121214', // Subtle Dark
+                        surfaceHighlight: '#1B1B1F', // Lighter Dark
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        heading: ['Outfit', 'sans-serif'],
+                    },
+                    animation: {
+                        'blob': 'blob 7s infinite',
+                        'float': 'float 6s ease-in-out infinite',
+                        'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                    },
+                    keyframes: {
+                        blob: {
+                            '0%': { transform: 'translate(0px, 0px) scale(1)' },
+                            '33%': { transform: 'translate(30px, -50px) scale(1.1)' },
+                            '66%': { transform: 'translate(-20px, 20px) scale(0.9)' },
+                            '100%': { transform: 'translate(0px, 0px) scale(1)' },
+                        },
+                        float: {
+                            '0%, 100%': { transform: 'translateY(0)' },
+                            '50%': { transform: 'translateY(-20px)' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            background-color: #0a0a0b;
+            color: #F8F9FA;
+            overflow-x: hidden;
+        }
+
+        .heading-gradient {
+            background: linear-gradient(135deg, #FFFFFF 0%, #E63946 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            color: transparent;
+        }
+
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .premium-card {
+            background: linear-gradient(180deg, rgba(27, 27, 31, 0.8) 0%, rgba(18, 18, 20, 0.9) 100%);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+
+        .premium-card:hover {
+            transform: translateY(-8px);
+            border-color: rgba(230, 57, 70, 0.4);
+            box-shadow: 0 20px 40px -10px rgba(230, 57, 70, 0.15);
+        }
+
+        .btn-glow {
+            position: relative;
+        }
+
+        .btn-glow::after {
+            content: '';
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            right: -2px;
+            bottom: -2px;
+            background: linear-gradient(45deg, #E63946, #FF6B6B, #E63946);
+            z-index: -1;
+            border-radius: inherit;
+            filter: blur(12px);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .btn-glow:hover::after {
+            opacity: 0.7;
+        }
+
+        .bg-grid {
+            background-size: 30px 30px;
+            background-image: linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+                linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+        }
+
+        .marker-pulse {
+            position: relative;
+        }
+
+        .marker-pulse::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 20px;
+            height: 20px;
+            background-color: rgba(230, 57, 70, 0.5);
+            border-radius: 50%;
+            animation: ping 2s cubic-bezier(0, 0, 0.2, 1) infinite;
+        }
+
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #0a0a0b;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #333;
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #E63946;
+        }
+
+        .region-card {
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .region-card.active {
+            border-color: #E63946;
+            background: rgba(230, 57, 70, 0.05);
+        }
+    </style>
+</head>
+
+<body class="antialiased selection:bg-primary/30 selection:text-white">
+
+    <!-- Global Background Elements -->
+    <div class="fixed inset-0 z-[-1] bg-grid pointer-events-none"></div>
+    <div
+        class="fixed top-0 left-[-20%] w-[70%] h-[500px] bg-primary/10 rounded-full blur-[150px] pointer-events-none mix-blend-screen">
+    </div>
+    <div
+        class="fixed bottom-[-10%] right-[-10%] w-[60%] h-[600px] bg-blue-900/10 rounded-full blur-[150px] pointer-events-none mix-blend-screen">
+    </div>
+
+    <!-- Navigation -->
+    <nav
+        class="sticky top-0 z-50 glass-panel border-x-0 border-t-0 border-b border-white/5 transition-all duration-300">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="flex items-center space-x-3 group">
+                <div
+                    class="w-10 h-10 bg-gradient-to-br from-primary to-primaryDark rounded-xl flex items-center justify-center shadow-lg shadow-primary/20 group-hover:shadow-primary/40 transition-all duration-300">
+                    <i data-lucide="server" class="text-white w-5 h-5 group-hover:scale-110 transition-transform"></i>
+                </div>
+                <div class="flex flex-col">
+                    <span class="font-heading text-xl font-bold tracking-tight text-white leading-tight">Visual
+                        Web</span>
+                    <span class="text-[10px] text-white/50 tracking-[0.2em] font-medium uppercase">Co., Ltd.</span>
+                </div>
+            </a>
+
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="company.html"
+                    class="text-sm font-medium text-white transition-colors border-b-2 border-primary pb-1">Our
+                    Company</a>
+                <a href="index.html#solutions"
+                    class="text-sm font-medium text-white/70 hover:text-white transition-colors">Solutions</a>
+                <a href="index.html#asia"
+                    class="text-sm font-medium text-white/70 hover:text-white transition-colors">Asia &
+                    Oceania</a>
+                <a href="index.html#global"
+                    class="text-sm font-medium text-white/70 hover:text-white transition-colors">Global
+                    Network</a>
+                <a href="index.html#contact"
+                    class="text-sm font-medium text-white/70 hover:text-white transition-colors">Contact</a>
+                <a href="https://serversinasia.com/"
+                    class="btn-glow px-6 py-2.5 bg-primary text-white rounded-full text-sm font-bold tracking-wide hover:scale-105 transition-transform shadow-lg shadow-primary/20 flex items-center gap-2">
+                    ServersInAsia <i data-lucide="external-link" class="w-4 h-4"></i>
+                </a>
+            </div>
+
+            <button class="md:hidden text-white/80 hover:text-white">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Company Header Section -->
+    <header class="relative pt-24 pb-16 overflow-hidden">
+        <div class="container mx-auto px-6 relative z-10">
+            <div class="max-w-4xl mx-auto text-center">
+                <div
+                    class="inline-flex items-center gap-2 px-4 py-2 rounded-full glass-panel border-primary/20 text-primary mb-8">
+                    <i data-lucide="building-2" class="w-4 h-4"></i>
+                    <span class="text-xs font-bold uppercase tracking-widest text-primary">About Us</span>
+                </div>
+
+                <h1 class="font-heading text-4xl md:text-6xl font-extrabold mb-6 leading-tight">
+                    Our <span class="heading-gradient">Company</span>
+                </h1>
+            </div>
+        </div>
+
+        <!-- Decorative Elements -->
+        <div class="absolute top-[20%] left-[10%] opacity-10">
+            <i data-lucide="globe-2" class="w-24 h-24 text-primary"></i>
+        </div>
+    </header>
+
+    <!-- Company Content Section -->
+    <section class="pb-24 relative">
+        <div class="container mx-auto px-6 max-w-4xl relative z-10">
+            <div class="glass-panel rounded-3xl p-8 md:p-12 border border-white/5 shadow-2xl">
+
+                <h3 class="text-2xl font-bold font-heading mb-6 flex items-center gap-3">
+                    <div class="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center">
+                        <i data-lucide="clock" class="text-primary w-5 h-5"></i>
+                    </div>
+                    Established Legacy
+                </h3>
+
+                <p class="text-white/70 text-lg leading-relaxed mb-8">
+                    <strong class="text-white font-medium">Visual Web Co., Ltd.</strong> was founded on May 1998. It is
+                    incorporated and located in Bangkok, Thailand.
+                </p>
+
+                <div class="w-full h-px bg-white/5 mb-8"></div>
+
+                <h3 class="text-2xl font-bold font-heading mb-6 flex items-center gap-3">
+                    <div class="w-10 h-10 rounded-xl bg-blue-500/10 flex items-center justify-center">
+                        <i data-lucide="rocket" class="text-blue-400 w-5 h-5"></i>
+                    </div>
+                    Growth & Evolution
+                </h3>
+
+                <p class="text-white/70 text-lg leading-relaxed mb-6">
+                    We had started out as a provider of web hosting and web site design. Web hosting was initially
+                    provided on servers in the USA and in Thailand only. In 2003 we added dedicated servers to our
+                    services and, in later years, also co-location services, virtual servers (VPS, VDS, etc.) and cloud
+                    servers.
+                </p>
+
+                <p class="text-white/70 text-lg leading-relaxed mb-8">
+                    In recent years we have also widened the range of our offered server locations from initially only
+                    including Thailand and the USA. During these last years we had been specializing in providing
+                    servers in Asian data centers and have included Japan, Singapore, Malaysia, Hong Kong, Taiwan, Saudi
+                    Arabia, a lot of other Asian and also Middle Eastern locations and also Australia and New Zealand in
+                    our range of offered server locations. Since 2015 we have been offering servers in more than 100
+                    locations all over the world. New locations and solutions are added constantly.
+                </p>
+
+                <div class="w-full h-px bg-white/5 mb-8"></div>
+
+                <h3 class="text-2xl font-bold font-heading mb-6 flex items-center gap-3">
+                    <div class="w-10 h-10 rounded-xl bg-purple-500/10 flex items-center justify-center">
+                        <i data-lucide="network" class="text-purple-400 w-5 h-5"></i>
+                    </div>
+                    Global Reach
+                </h3>
+
+                <p class="text-white/70 text-lg leading-relaxed mb-6">
+                    Through our excellent connections in the industry we are also able to provide servers in other
+                    locations not listed on <a href="http://serversinasia.com"
+                        class="text-primary hover:underline font-medium">serversinasia.com</a> - in North, Central &
+                    South America, Europe and Africa - to our customers. You will find them at our other web site, <a
+                        href="http://www.vwt.net"
+                        class="text-primary hover:underline font-medium">http://www.vwt.net</a>. And if you are looking
+                    for a server in a location which is not in our shown sales range - or any server specifications we
+                    do not list on our web sites - please just ask us! We will be glad to be of service.
+                </p>
+
+                <div class="bg-primary/5 border border-primary/20 rounded-2xl p-6 mt-10">
+                    <div class="flex flex-col md:flex-row items-center gap-6">
+                        <div class="w-16 h-16 rounded-full bg-primary/20 flex items-center justify-center shrink-0">
+                            <i data-lucide="heart-handshake" class="text-primary w-8 h-8"></i>
+                        </div>
+                        <p class="text-white/80 text-lg leading-relaxed italic m-0">
+                            "As customer satisfaction is our overriding aim, all servers we provide are hosted in
+                            top-class data centers in the offered locations."
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="pt-24 pb-12 relative border-t border-white/10 bg-surface">
+        <div class="absolute top-0 inset-x-0 h-px bg-gradient-to-r from-transparent via-primary/50 to-transparent">
+        </div>
+
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+                <!-- Company Info -->
+                <div class="lg:col-span-1">
+                    <div class="flex items-center space-x-3 mb-6">
+                        <div
+                            class="w-8 h-8 bg-gradient-to-br from-primary to-primaryDark rounded-lg flex items-center justify-center">
+                            <i data-lucide="server" class="text-white w-4 h-4"></i>
+                        </div>
+                        <span class="font-heading text-lg font-bold">Visual Web Co., Ltd.</span>
+                    </div>
+                    <p class="text-white/50 text-sm mb-6 leading-relaxed">
+                        A Member of the Visual Web Group of Companies.<br />
+                        Delivering premium global infrastructure since 2013.
+                    </p>
+                    <div class="flex gap-4">
+                        <a href="#"
+                            class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-primary transition-colors hover:text-white text-white/50"><i
+                                data-lucide="twitter" class="w-4 h-4"></i></a>
+                        <a href="#"
+                            class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-primary transition-colors hover:text-white text-white/50"><i
+                                data-lucide="linkedin" class="w-4 h-4"></i></a>
+                    </div>
+                </div>
+
+                <!-- Contact Methods -->
+                <div class="lg:col-span-2">
+                    <h4 class="font-bold mb-6 uppercase tracking-wider text-xs text-white/40">Reach Out</h4>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                        <div class="flex items-start gap-4">
+                            <div class="p-2 bg-white/5 rounded-lg text-primary"><i data-lucide="map-pin"
+                                    class="w-5 h-5"></i></div>
+                            <p class="text-sm text-white/60 leading-relaxed">564/7 Lumpinee Center B4,<br />Happyland,
+                                Bangkapi,<br />Bangkok 10240, Thailand</p>
+                        </div>
+                        <div class="flex flex-col gap-4">
+                            <div class="flex items-center gap-4">
+                                <div class="p-2 bg-white/5 rounded-lg text-primary"><i data-lucide="phone"
+                                        class="w-5 h-5"></i></div>
+                                <p class="text-sm text-white/60">(+66) 62-676-9611</p>
+                            </div>
+                            <div class="flex items-center gap-4">
+                                <div class="p-2 bg-white/5 rounded-lg text-primary"><i data-lucide="message-circle"
+                                        class="w-5 h-5"></i></div>
+                                <p class="text-sm text-white/60">Skype: visualweb1</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-6 flex items-start gap-4">
+                        <div class="p-2 bg-white/5 rounded-lg text-primary"><i data-lucide="mail" class="w-5 h-5"></i>
+                        </div>
+                        <div class="flex flex-col gap-1">
+                            <a href="mailto:info@serversinasia.com"
+                                class="text-sm text-white/60 hover:text-primary transition-colors">info@serversinasia.com</a>
+                            <a href="mailto:info@vwt.net"
+                                class="text-sm text-white/60 hover:text-primary transition-colors">info@vwt.net</a>
+                            <a href="mailto:onlinepayments@vwt.net"
+                                class="text-sm text-white/60 hover:text-primary transition-colors">onlinepayments@vwt.net</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Network Links -->
+                <div class="lg:col-span-1">
+                    <h4 class="font-bold mb-6 uppercase tracking-wider text-xs text-white/40">Our Network</h4>
+                    <ul class="space-y-3">
+                        <li><a href="http://www.vwt.net"
+                                class="text-sm text-white/60 hover:text-primary transition-colors flex items-center gap-2"><i
+                                    data-lucide="chevron-right" class="w-3 h-3 text-primary"></i> vwt.net</a></li>
+                        <li><a href="http://www.serversinasia.com"
+                                class="text-sm text-white/60 hover:text-primary transition-colors flex items-center gap-2"><i
+                                    data-lucide="chevron-right" class="w-3 h-3 text-primary"></i> serversinasia.com</a>
+                        </li>
+                        <li><a href="http://www.visualweb.co.th"
+                                class="text-sm text-white/60 hover:text-primary transition-colors flex items-center gap-2"><i
+                                    data-lucide="chevron-right" class="w-3 h-3 text-primary"></i> visualweb.co.th</a>
+                        </li>
+                        <li><a href="http://www.vwebgroup.com"
+                                class="text-sm text-white/60 hover:text-primary transition-colors flex items-center gap-2"><i
+                                    data-lucide="chevron-right" class="w-3 h-3 text-primary"></i> vwebgroup.com</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="pt-8 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-4">
+                <p class="text-xs text-white/40">
+                    © 2013-2026 Visual Web Co. Ltd. All offered services underlie our <a href="#"
+                        class="underline hover:text-primary">Acceptable Use Policy</a>.
+                </p>
+                <div class="flex items-center gap-2 px-3 py-1.5 glass-panel rounded-full">
+                    <div class="w-2 h-2 rounded-full bg-green-500 animate-pulse"></div>
+                    <span class="text-[10px] font-bold uppercase tracking-widest text-white/60">All Systems
+                        Operational</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>
