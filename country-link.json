@@ -1,0 +1,574 @@
+[
+    {
+        "country": "Albania",
+        "url": "https://vwt.net/serversal.html"
+    },
+    {
+        "country": "Andorra",
+        "url": "https://vwt.net/serversad.html"
+    },
+    {
+        "country": "Austria",
+        "url": "https://vwt.net/serversat.html"
+    },
+    {
+        "country": "Belarus",
+        "url": "https://vwt.net/serversby.html"
+    },
+    {
+        "country": "Belgium",
+        "url": "https://vwt.net/serversbe.html"
+    },
+    {
+        "country": "Bosnia",
+        "url": "https://vwt.net/serversba.html"
+    },
+    {
+        "country": "Bulgaria",
+        "url": "https://vwt.net/serversbg.html"
+    },
+    {
+        "country": "Croatia",
+        "url": "https://vwt.net/servershr.html"
+    },
+    {
+        "country": "Czech Republic",
+        "url": "https://vwt.net/serverscz.html"
+    },
+    {
+        "country": "Denmark",
+        "url": "https://vwt.net/serversdk.html"
+    },
+    {
+        "country": "Estonia",
+        "url": "https://vwt.net/serversee.html"
+    },
+    {
+        "country": "Finland",
+        "url": "https://vwt.net/serversfi.html"
+    },
+    {
+        "country": "France",
+        "url": "https://vwt.net/serversfr.html"
+    },
+    {
+        "country": "Germany",
+        "url": "https://vwt.net/serversde.html"
+    },
+    {
+        "country": "Gibraltar",
+        "url": "https://vwt.net/serversgi.html"
+    },
+    {
+        "country": "Greece",
+        "url": "https://vwt.net/serversgr.html"
+    },
+    {
+        "country": "Hungary",
+        "url": "https://vwt.net/servershu.html"
+    },
+    {
+        "country": "Iceland",
+        "url": "https://vwt.net/serversis.html"
+    },
+    {
+        "country": "Ireland",
+        "url": "https://vwt.net/serversie.html"
+    },
+    {
+        "country": "Isle of Man",
+        "url": "https://vwt.net/serversim.html"
+    },
+    {
+        "country": "Italy",
+        "url": "https://vwt.net/serversit.html"
+    },
+    {
+        "country": "Kosovo",
+        "url": "https://vwt.net/serversxk.html"
+    },
+    {
+        "country": "Latvia",
+        "url": "https://vwt.net/serverslv.html"
+    },
+    {
+        "country": "Liechtenstein",
+        "url": "https://vwt.net/serversli.html"
+    },
+    {
+        "country": "Lithuania",
+        "url": "https://vwt.net/serverslt.html"
+    },
+    {
+        "country": "Luxemburg",
+        "url": "https://vwt.net/serverslu.html"
+    },
+    {
+        "country": "Malta",
+        "url": "https://vwt.net/serversmt.html"
+    },
+    {
+        "country": "Moldova",
+        "url": "https://vwt.net/serversmd.html"
+    },
+    {
+        "country": "Netherlands",
+        "url": "https://vwt.net/serversnl.html"
+    },
+    {
+        "country": "Norway",
+        "url": "https://vwt.net/serversno.html"
+    },
+    {
+        "country": "North Macedonia",
+        "url": "https://vwt.net/serversmk.html"
+    },
+    {
+        "country": "Poland",
+        "url": "https://vwt.net/serverspl.html"
+    },
+    {
+        "country": "Portugal",
+        "url": "https://vwt.net/serverspt.html"
+    },
+    {
+        "country": "Romania",
+        "url": "https://vwt.net/serversro.html"
+    },
+    {
+        "country": "Russia",
+        "url": "https://vwt.net/serversru.html"
+    },
+    {
+        "country": "Scotland",
+        "url": "https://vwt.net/serversscot.html"
+    },
+    {
+        "country": "Serbia",
+        "url": "https://vwt.net/serversrs.html"
+    },
+    {
+        "country": "Slovakia",
+        "url": "https://vwt.net/serverssk.html"
+    },
+    {
+        "country": "Slovenia",
+        "url": "https://vwt.net/serverssi.html"
+    },
+    {
+        "country": "Spain",
+        "url": "https://vwt.net/serverses.html"
+    },
+    {
+        "country": "Sweden",
+        "url": "https://vwt.net/serversse.html"
+    },
+    {
+        "country": "Switzerland",
+        "url": "https://vwt.net/serversch.html"
+    },
+    {
+        "country": "UK (England)",
+        "url": "https://vwt.net/serversuk.html"
+    },
+    {
+        "country": "Ukraine",
+        "url": "https://vwt.net/serversua.html"
+    },
+    {
+        "country": "Afghanistan",
+        "url": "http://serversinasia.com/serversafghanistan.html"
+    },
+    {
+        "country": "Armenia",
+        "url": "http://serversinasia.com/serversarmenia.html"
+    },
+    {
+        "country": "Australia",
+        "url": "http://serversinasia.com/serversaustralia.html"
+    },
+    {
+        "country": "Azerbaijan",
+        "url": "http://serversinasia.com/serversazerbaijan.html"
+    },
+    {
+        "country": "Bahrain",
+        "url": "http://serversinasia.com/serversbahrain.html"
+    },
+    {
+        "country": "Bangladesh",
+        "url": "http://serversinasia.com/serversbangladesh.html"
+    },
+    {
+        "country": "Cambodia",
+        "url": "http://serversinasia.com/serverscambodia.html"
+    },
+    {
+        "country": "China",
+        "url": "http://serversinasia.com/serverschina.html"
+    },
+    {
+        "country": "Cyprus",
+        "url": "http://serversinasia.com/serverscyprus.html"
+    },
+    {
+        "country": "Georgia",
+        "url": "http://serversinasia.com/serversgeorgia.html"
+    },
+    {
+        "country": "Guam",
+        "url": "http://serversinasia.com/serversguam.html"
+    },
+    {
+        "country": "Hong Kong",
+        "url": "http://serversinasia.com/servershongkong.html"
+    },
+    {
+        "country": "India",
+        "url": "http://serversinasia.com/serversindia.html"
+    },
+    {
+        "country": "Indonesia",
+        "url": "http://serversinasia.com/serversindonesia.html"
+    },
+    {
+        "country": "Iran",
+        "url": "http://serversinasia.com/serversiran.html"
+    },
+    {
+        "country": "Iraq",
+        "url": "http://serversinasia.com/serversiraq.html"
+    },
+    {
+        "country": "Israel",
+        "url": "http://serversinasia.com/serversisrael.html"
+    },
+    {
+        "country": "Japan",
+        "url": "http://serversinasia.com/serversjapan.html"
+    },
+    {
+        "country": "Jordan",
+        "url": "http://serversinasia.com/serversjordan.html"
+    },
+    {
+        "country": "Kazakhstan",
+        "url": "http://serversinasia.com/serverskazakhstan.html"
+    },
+    {
+        "country": "Kuwait",
+        "url": "http://serversinasia.com/serverskuwait.html"
+    },
+    {
+        "country": "Kyrgyzstan",
+        "url": "http://serversinasia.com/serverskyrgyzstan.html"
+    },
+    {
+        "country": "Laos",
+        "url": "http://serversinasia.com/serverslaos.html"
+    },
+    {
+        "country": "Lebanon",
+        "url": "http://serversinasia.com/serverslebanon.html"
+    },
+    {
+        "country": "Macao",
+        "url": "http://serversinasia.com/serversmacao.html"
+    },
+    {
+        "country": "Malaysia",
+        "url": "http://serversinasia.com/serversmalaysia.html"
+    },
+    {
+        "country": "Mongolia",
+        "url": "http://serversinasia.com/serversmongolia.html"
+    },
+    {
+        "country": "Myanmar",
+        "url": "http://serversinasia.com/serversmyanmar.html"
+    },
+    {
+        "country": "Nepal",
+        "url": "http://serversinasia.com/serversnepal.html"
+    },
+    {
+        "country": "New Caledonia",
+        "url": "http://serversinasia.com/serversnewcaledonia.html"
+    },
+    {
+        "country": "New Zealand",
+        "url": "http://serversinasia.com/serversnewzealand.html"
+    },
+    {
+        "country": "Oman",
+        "url": "http://serversinasia.com/serversoman.html"
+    },
+    {
+        "country": "Pakistan",
+        "url": "http://serversinasia.com/serverspakistan.html"
+    },
+    {
+        "country": "Palestine",
+        "url": "http://serversinasia.com/serverspalestine.html"
+    },
+    {
+        "country": "Philippines",
+        "url": "http://serversinasia.com/serversphilippines.html"
+    },
+    {
+        "country": "Qatar",
+        "url": "http://serversinasia.com/serversqatar.html"
+    },
+    {
+        "country": "Russian Siberia",
+        "url": "http://serversinasia.com/serverssiberia.html"
+    },
+    {
+        "country": "Saudi Arabia",
+        "url": "http://serversinasia.com/serverssaudiarabia.html"
+    },
+    {
+        "country": "Singapore",
+        "url": "http://serversinasia.com/serverssingapore.html"
+    },
+    {
+        "country": "South Korea",
+        "url": "http://serversinasia.com/serverssouthkorea.html"
+    },
+    {
+        "country": "Sri Lanka",
+        "url": "http://serversinasia.com/serverssrilanka.html"
+    },
+    {
+        "country": "Taiwan",
+        "url": "http://serversinasia.com/serverstaiwan.html"
+    },
+    {
+        "country": "Tajikistan",
+        "url": "http://serversinasia.com/serverstajikistan.html"
+    },
+    {
+        "country": "Thailand",
+        "url": "http://serversinasia.com/serversthailand.html"
+    },
+    {
+        "country": "Turkey",
+        "url": "http://serversinasia.com/serversturkey.html"
+    },
+    {
+        "country": "UAE",
+        "url": "http://serversinasia.com/serversuae.html"
+    },
+    {
+        "country": "Uzbekistan",
+        "url": "http://serversinasia.com/serversuzbekistan.html"
+    },
+    {
+        "country": "Vietnam",
+        "url": "http://serversinasia.com/serversvietnam.html"
+    },
+    {
+        "country": "Argentina",
+        "url": "https://vwt.net/serversar.html"
+    },
+    {
+        "country": "Bolivia",
+        "url": "https://vwt.net/serversbo.html"
+    },
+    {
+        "country": "Brazil",
+        "url": "https://vwt.net/serversbr.html"
+    },
+    {
+        "country": "Canada",
+        "url": "https://vwt.net/serversca.html"
+    },
+    {
+        "country": "Chile",
+        "url": "https://vwt.net/serverscl.html"
+    },
+    {
+        "country": "Colombia",
+        "url": "https://vwt.net/serversco.html"
+    },
+    {
+        "country": "Costa Rica",
+        "url": "https://vwt.net/serverscr.html"
+    },
+    {
+        "country": "Curaçao",
+        "url": "https://vwt.net/serverscw.html"
+    },
+    {
+        "country": "Ecuador",
+        "url": "https://vwt.net/serversec.html"
+    },
+    {
+        "country": "El Salvador",
+        "url": "https://vwt.net/serverssv.html"
+    },
+    {
+        "country": "Guatemala",
+        "url": "https://vwt.net/serversgt.html"
+    },
+    {
+        "country": "Guadeloupe",
+        "url": "https://vwt.net/serversgp.html"
+    },
+    {
+        "country": "Honduras",
+        "url": "https://vwt.net/servershn.html"
+    },
+    {
+        "country": "Martinique",
+        "url": "https://vwt.net/serversgp.html"
+    },
+    {
+        "country": "Mexico",
+        "url": "https://vwt.net/serversmx.html"
+    },
+    {
+        "country": "Panama",
+        "url": "https://vwt.net/serverspa.html"
+    },
+    {
+        "country": "Paraguay",
+        "url": "https://vwt.net/serverspy.html"
+    },
+    {
+        "country": "Peru",
+        "url": "https://vwt.net/serverspe.html"
+    },
+    {
+        "country": "Puerto Rico",
+        "url": "https://vwt.net/serverspr.html"
+    },
+    {
+        "country": "Uruguay",
+        "url": "https://vwt.net/serversuy.html"
+    },
+    {
+        "country": "USA",
+        "url": "https://vwt.net/serversus.html"
+    },
+    {
+        "country": "Venezuela",
+        "url": "https://vwt.net/serversve.html"
+    },
+    {
+        "country": "Algeria",
+        "url": "https://vwt.net/serversdz.html"
+    },
+    {
+        "country": "Angola",
+        "url": "https://vwt.net/serversao.html"
+    },
+    {
+        "country": "Benin",
+        "url": "https://vwt.net/serversbj.html"
+    },
+    {
+        "country": "Botswana",
+        "url": "https://vwt.net/serversbw.html"
+    },
+    {
+        "country": "Burkina Faso",
+        "url": "https://vwt.net/serversbf.html"
+    },
+    {
+        "country": "Cameroon",
+        "url": "https://vwt.net/serverscm.html"
+    },
+    {
+        "country": "Congo (Brazzaville)",
+        "url": "https://vwt.net/serverscg.html"
+    },
+    {
+        "country": "DR Congo (Kinshasa)",
+        "url": "https://vwt.net/serverscd.html"
+    },
+    {
+        "country": "Egypt",
+        "url": "http://serversinasia.com/serversegypt.html"
+    },
+    {
+        "country": "Ethiopia",
+        "url": "https://vwt.net/serverset.html"
+    },
+    {
+        "country": "Gabon",
+        "url": "https://vwt.net/serversga.html"
+    },
+    {
+        "country": "Ghana",
+        "url": "https://vwt.net/serversgh.html"
+    },
+    {
+        "country": "Ivory Coast",
+        "url": "https://vwt.net/serversci.html"
+    },
+    {
+        "country": "Kenya",
+        "url": "https://vwt.net/serverske.html"
+    },
+    {
+        "country": "Libya",
+        "url": "https://vwt.net/serversly.html"
+    },
+    {
+        "country": "Madagascar",
+        "url": "https://vwt.net/serversmg.html"
+    },
+    {
+        "country": "Mauritius",
+        "url": "https://vwt.net/serversmu.html"
+    },
+    {
+        "country": "Morocco",
+        "url": "https://vwt.net/serversma.html"
+    },
+    {
+        "country": "Mozambique",
+        "url": "https://vwt.net/serversmz.html"
+    },
+    {
+        "country": "Nigeria",
+        "url": "https://vwt.net/serversng.html"
+    },
+    {
+        "country": "Reunion",
+        "url": "https://vwt.net/serversre.html"
+    },
+    {
+        "country": "Rwanda",
+        "url": "https://vwt.net/serversrw.html"
+    },
+    {
+        "country": "Senegal",
+        "url": "https://vwt.net/serverssn.html"
+    },
+    {
+        "country": "South Africa",
+        "url": "https://vwt.net/serversza.html"
+    },
+    {
+        "country": "Tanzania",
+        "url": "https://vwt.net/serverstz.html"
+    },
+    {
+        "country": "Togo",
+        "url": "https://vwt.net/serverstg.html"
+    },
+    {
+        "country": "Tunisia",
+        "url": "https://vwt.net/serverstn.html"
+    },
+    {
+        "country": "Zambia",
+        "url": "https://vwt.net/serverszm.html"
+    },
+    {
+        "country": "Zimbabwe",
+        "url": "https://vwt.net/serverszw.html"
+    }
+]
