@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Premium Global Server Solutions: Dedicated, VPS & Cloud Hosting | Visual Web Co., Ltd.</title>
+    <title>Premium Global Server Solutions: Dedicated, VPS & Cloud Hosting | TheWebServer by Visual Web</title>
     <!-- SEO Meta Tags -->
     <meta name="description"
         content="Visual Web Co., Ltd. provides top-quality dedicated servers, VPS, cloud servers, and co-location in over 120 countries worldwide, with a strong focus on Asia, the Middle East, and Oceania. Expand your business today.">
@@ -64,115 +64,7 @@
         }
     </script>
 
-    <style>
-        body {
-            background-color: #0a0a0b;
-            color: #F8F9FA;
-            overflow-x: hidden;
-        }
-
-        .heading-gradient {
-            background: linear-gradient(135deg, #FFFFFF 0%, #E63946 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            color: transparent;
-        }
-
-        .glass-panel {
-            background: rgba(255, 255, 255, 0.03);
-            backdrop-filter: blur(12px);
-            -webkit-backdrop-filter: blur(12px);
-            border: 1px solid rgba(255, 255, 255, 0.08);
-            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-        }
-
-        .premium-card {
-            background: linear-gradient(180deg, rgba(27, 27, 31, 0.8) 0%, rgba(18, 18, 20, 0.9) 100%);
-            border: 1px solid rgba(255, 255, 255, 0.05);
-            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-        }
-
-        .premium-card:hover {
-            transform: translateY(-8px);
-            border-color: rgba(230, 57, 70, 0.4);
-            box-shadow: 0 20px 40px -10px rgba(230, 57, 70, 0.15);
-        }
-
-        .btn-glow {
-            position: relative;
-        }
-
-        .btn-glow::after {
-            content: '';
-            position: absolute;
-            top: -2px;
-            left: -2px;
-            right: -2px;
-            bottom: -2px;
-            background: linear-gradient(45deg, #E63946, #FF6B6B, #E63946);
-            z-index: -1;
-            border-radius: inherit;
-            filter: blur(12px);
-            opacity: 0;
-            transition: opacity 0.3s ease;
-        }
-
-        .btn-glow:hover::after {
-            opacity: 0.7;
-        }
-
-        .bg-grid {
-            background-size: 30px 30px;
-            background-image: linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
-                linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
-        }
-
-        .marker-pulse {
-            position: relative;
-        }
-
-        .marker-pulse::before {
-            content: '';
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            width: 20px;
-            height: 20px;
-            background-color: rgba(230, 57, 70, 0.5);
-            border-radius: 50%;
-            animation: ping 2s cubic-bezier(0, 0, 0.2, 1) infinite;
-        }
-
-        /* Custom scrollbar */
-        ::-webkit-scrollbar {
-            width: 8px;
-        }
-
-        ::-webkit-scrollbar-track {
-            background: #0a0a0b;
-        }
-
-        ::-webkit-scrollbar-thumb {
-            background: #333;
-            border-radius: 4px;
-        }
-
-        ::-webkit-scrollbar-thumb:hover {
-            background: #E63946;
-        }
-
-        .region-card {
-            cursor: pointer;
-            transition: all 0.3s ease;
-        }
-
-        .region-card.active {
-            border-color: #E63946;
-            background: rgba(230, 57, 70, 0.05);
-        }
-    </style>
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body class="antialiased selection:bg-primary/30 selection:text-white">
@@ -189,21 +81,22 @@
     <!-- Navigation -->
     <nav
         class="sticky top-0 z-50 glass-panel border-x-0 border-t-0 border-b border-white/5 transition-all duration-300">
-        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
-            <a href="index.html" class="flex items-center space-x-3 group">
+        <div class="container mx-auto px-4 md:px-6 py-3 md:py-4 flex justify-between items-center">
+            <a href="index.html" class="flex items-center space-x-2 md:space-x-3 group flex-shrink">
                 <div
-                    class="flex items-center justify-center w-10 h-10 shrink-0 bg-white/10 rounded-full overflow-hidden border border-white/20 group-hover:border-primary/60 transition-colors shadow-lg">
-                    <img src="visualwebserversnew.gif" alt="Visual Web Logo"
-                        class="w-full h-full object-cover group-hover:scale-110 transition-transform" />
+                    class="flex items-center justify-center w-8 h-8 md:w-10 md:h-10 shrink-0 bg-white/10 rounded-full overflow-hidden border border-white/20 group-hover:border-primary/60 transition-colors shadow-lg">
+                    <span class="text-primary font-bold text-base md:text-xl">TWS</span>
                 </div>
-                <div class="flex flex-col">
-                    <span class="font-heading text-xl font-bold tracking-tight text-white leading-tight">Visual
-                        Web</span>
-                    <span class="text-[10px] text-white/50 tracking-[0.2em] font-medium uppercase">Co., Ltd.</span>
+                <div class="flex flex-col flex-shrink overflow-hidden">
+                    <span
+                        class="font-heading text-lg md:text-xl font-bold tracking-tight text-white leading-tight truncate">TheWebServer</span>
+                    <span
+                        class="text-[8px] md:text-[10px] text-white/50 tracking-[0.1em] md:tracking-[0.2em] font-medium uppercase truncate hidden sm:block">Global
+                        Infrastructure</span>
                 </div>
             </a>
 
-            <div class="hidden md:flex items-center space-x-8">
+            <div class="hidden lg:flex items-center space-x-8">
                 <a href="company.html"
                     class="text-sm font-medium text-white transition-colors border-b-2 border-primary pb-1">Our
                     Company</a>
@@ -217,13 +110,16 @@
                     Network</a>
                 <a href="index.html#contact"
                     class="text-sm font-medium text-white/70 hover:text-white transition-colors">Contact</a>
+                <a href="mailto:info@vwt.net"
+                    class="text-sm font-medium text-white/50 hover:text-white transition-colors mr-2">Support</a>
                 <a href="https://serversinasia.com/"
                     class="btn-glow px-6 py-2.5 bg-primary text-white rounded-full text-sm font-bold tracking-wide hover:scale-105 transition-transform shadow-lg shadow-primary/20 flex items-center gap-2">
                     ServersInAsia <i data-lucide="external-link" class="w-4 h-4"></i>
                 </a>
             </div>
 
-            <button class="md:hidden text-white/80 hover:text-white">
+            <button
+                class="lg:hidden text-white/80 hover:text-white focus:outline-none focus-visible:ring-2 focus-visible:ring-primary rounded-md p-1 ml-4">
                 <i data-lucide="menu"></i>
             </button>
         </div>
@@ -423,7 +319,7 @@
 
             <div class="pt-8 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-4">
                 <p class="text-xs text-white/40">
-                    © 2013-2026 Visual Web Co. Ltd. All offered services underlie our <a href="#"
+                    © 2013-2026 TheWebServer by Visual Web Co. Ltd. All offered services underlie our <a href="#"
                         class="underline hover:text-primary">Acceptable Use Policy</a>.
                 </p>
                 <div class="flex items-center gap-2 px-3 py-1.5 glass-panel rounded-full">
@@ -435,6 +331,79 @@
         </div>
     </footer>
 
+
+    <!-- Mobile Menu Overlay -->
+    <div id="mobile-menu"
+        class="fixed inset-0 bg-background/95 backdrop-blur-xl z-[60] hidden flex-col opacity-0 transition-opacity duration-300 overflow-y-auto">
+        <button id="close-menu"
+            class="absolute top-4 right-4 md:top-6 md:right-6 text-white/80 hover:text-white p-2 z-10">
+            <i data-lucide="x" class="w-8 h-8"></i>
+        </button>
+        <div class="flex flex-col items-center justify-center min-h-[100dvh] py-20 px-4 space-y-6 sm:space-y-8">
+            <a href="company.html"
+                class="text-xl sm:text-2xl font-heading font-medium text-white hover:text-primary transition-colors mobile-link">Our
+                Company</a>
+            <a href="index.html#solutions"
+                class="text-xl sm:text-2xl font-heading font-medium text-white hover:text-primary transition-colors mobile-link">Solutions</a>
+            <a href="index.html#asia"
+                class="text-xl sm:text-2xl font-heading font-medium text-white hover:text-primary transition-colors mobile-link">Asia
+                &
+                Oceania</a>
+            <a href="index.html#global"
+                class="text-xl sm:text-2xl font-heading font-medium text-white hover:text-primary transition-colors mobile-link">Global
+                Network</a>
+            <a href="index.html#contact"
+                class="text-xl sm:text-2xl font-heading font-medium text-white hover:text-primary transition-colors mobile-link">Contact</a>
+            <a href="mailto:info@vwt.net"
+                class="text-xl sm:text-2xl font-heading font-medium text-white/70 hover:text-primary transition-colors mobile-link">Support</a>
+            <div class="pt-4 pb-8 w-full flex justify-center mt-4">
+                <a href="https://serversinasia.com/"
+                    class="btn-glow px-6 py-3 sm:px-8 sm:py-4 bg-primary text-white rounded-full text-base sm:text-lg font-bold tracking-wide shadow-lg shadow-primary/20 flex items-center gap-2 mobile-link">
+                    ServersInAsia <i data-lucide="external-link" class="w-4 h-4 sm:w-5 sm:h-5"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- UI Interaction Scripts -->
+    <script>
+        // Navbar scroll effect
+        const nav = document.querySelector('nav');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                nav.classList.add('py-2', 'bg-surface/80', 'backdrop-blur-xl');
+                nav.classList.remove('border-transparent');
+            } else {
+                nav.classList.remove('py-2', 'bg-surface/80', 'backdrop-blur-xl');
+                nav.classList.add('border-transparent');
+            }
+        });
+
+        // Mobile Menu Logic
+        const mobileMenu = document.getElementById('mobile-menu');
+        const openBtn = document.querySelector('button.lg\\:hidden');
+        const closeBtn = document.getElementById('close-menu');
+        const mobileLinks = document.querySelectorAll('.mobile-link');
+
+        function toggleMenu() {
+            const isHidden = mobileMenu.classList.contains('hidden');
+            if (isHidden) {
+                mobileMenu.classList.remove('hidden');
+                setTimeout(() => mobileMenu.classList.remove('opacity-0'), 10);
+                document.body.style.overflow = 'hidden';
+            } else {
+                mobileMenu.classList.add('opacity-0');
+                setTimeout(() => {
+                    mobileMenu.classList.add('hidden');
+                    document.body.style.overflow = '';
+                }, 300);
+            }
+        }
+
+        if (openBtn) openBtn.addEventListener('click', toggleMenu);
+        if (closeBtn) closeBtn.addEventListener('click', toggleMenu);
+        mobileLinks.forEach(link => link.addEventListener('click', toggleMenu));
+    </script>
 
     <script>
         lucide.createIcons();
