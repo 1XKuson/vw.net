@@ -4,20 +4,37 @@ body {
     overflow-x: hidden;
 }
 
+/* Global Accessibility */
+a:focus-visible,
+button:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 2px #E63946;
+    border-radius: inherit;
+}
+
 @keyframes shimmerGradient {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 @keyframes typographicReveal {
-    0% { 
-        opacity: 0; 
+    0% {
+        opacity: 0;
         transform: translateY(20px);
         letter-spacing: -2px;
     }
-    100% { 
-        opacity: 1; 
+
+    100% {
+        opacity: 1;
         transform: translateY(0);
         letter-spacing: normal;
     }
@@ -54,7 +71,7 @@ body {
 .premium-card:hover {
     transform: translateY(-8px);
     border-color: rgba(230, 57, 70, 0.4);
-    box-shadow: 0 20px 40px -10px rgba(230, 57, 70, 0.15);
+    box-shadow: 0 0 20px rgba(230, 57, 70, 0.15);
 }
 
 .btn-glow {
