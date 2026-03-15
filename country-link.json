@@ -570,5 +570,13 @@
     {
         "country": "Zimbabwe",
         "url": "https://vwt.net/serverszw.html"
+    },
+    {
+        "country": "Central African Republic",
+        "url": "https://vwt.net/serverscf.html"
+    },
+    {
+        "country": "test",
+        "url": "https://vwt.net/serverscg.html"
     }
 ]
